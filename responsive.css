@@ -1,0 +1,453 @@
+@media screen and (max-width: 1800px) {
+    .trainers-heading h1{
+        width: 40%;
+        padding-top: 50px;
+        font-size: 30px;
+    }
+    .contactus-container{
+        width: 80%;
+    }
+    .contactus-container-left{
+        width: 40%;
+    }
+    .contactus-container-left img{
+        width: 80%;
+    }
+    .contactus-container-right{
+        width: 37%;
+    }
+    .contactus-container-right h1{
+        width: 90%;
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 1700px) {
+    .heroDesc {
+        top: 32%;
+        left: 3%;
+    }
+    main .heroDesc h1 {
+        font-size: 40px;
+    }
+    .heroPara {
+        font-size: 16px;
+        padding: 25px 10px;
+    }
+    
+    .btnSchedule,
+    .btnLearn {
+        border-radius: 5px;
+        padding: 8px;
+    }
+    
+    .btnSchedule a,
+    .btnLearn a {
+        font-size: 14px;
+    }
+    #aboutUs h1 {
+        font-size: 40px;
+    }
+    .card img {
+        height: 75px;
+    }
+    .facilityContainer1{
+        width: 80%;
+    }
+    .facilityContainer1-text{
+        width: 40%;
+    }
+    .facilityContainer1-text h1{
+        font-size: 40px;
+    }
+    .facilityContainer1-img{
+        width: 35%;
+    }
+    .facilityContainer1-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .facilityContainer2{
+        width: 80%;
+    }
+    .facilityContainer2-text{
+        width: 40%;
+    }
+    .trainers-card{
+        width: 20%;
+    }
+    .membershipPlans-heading h1{
+        font-size: 36px;
+    }
+    .contactus-container-left img{
+        width: 90%;
+    }
+    .contactus-container-right{
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width: 1430px) {
+    .heroDesc {
+        width: 550px;
+        left: 3%;
+    }
+    main .heroDesc h1 {
+        font-size: 40px;
+    }
+    .heroPara {
+        font-size: 16px;
+        padding: 25px 10px;
+    }
+    .heroBtn {
+        padding: 0px 120px;
+    }
+    .card img {
+        height: 75px;
+    }
+    .facilityContainer1{
+        width: 90%;
+    }
+    .facilityContainer1-img{
+        width: 45%;
+    }
+    .facilityContainer2{
+        width: 90%;
+    }
+    .facilityContainer2-img{
+        width: 45%;
+    }
+    .trainers-heading h1 {
+        width: 50%;
+    }
+    .trainers-card{
+        width: 25%;
+    }
+    .contactus-container {
+        width: 100%;
+    }
+    .contactus-container-left img{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1150px){
+    .hideOnmobile{
+        display: none;
+    }
+    .hideOnpc{
+        display: flex;
+    }
+    .heroDesc {
+        margin: 50px auto 0;
+        width: 700px;
+        left: 0%;
+        position: relative;
+        color: black;
+    }
+    main .heroDesc h1 {
+        font-size: 45px;
+    }
+    
+    .heroPara {
+        font-size: 18px;
+        padding: 30px 10px;
+    }
+    
+    .heroBtn {
+        justify-content: space-between;
+        padding: 0px 150px;
+    }
+    
+    .btnSchedule,
+    .btnLearn {
+        border: 1px solid red;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    
+    .btnSchedule, .btnLearn {
+        background-color: red;
+    }
+    .btnLearn{
+        padding: 10px 45px;
+    }
+    #container {
+        display: grid;
+        grid-template-areas: "card1 card2"
+                             "card3 card4"
+                             "card5 card5";
+        grid-template-columns: 50% 50%;                 
+        justify-items: center;
+    }
+    .card-1{
+        grid-area: card1;
+    }
+    .card-2{
+        grid-area: card2;
+    }
+    .card-3{
+        grid-area: card3;
+    }
+    .card-4{
+        grid-area: card4;
+    }
+    #card-5{
+        grid-area: card5;
+    }
+    .card {
+        width: 210px;
+        height: 170px;
+        text-align: center;
+        margin-top: 30px;
+        padding: 10px 0px;
+    }
+    .facilityContainer1{
+        width: 80%;
+        flex-direction: column;
+    }
+    .facilityContainer1-text{
+        width: 70%;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    .facilityContainer1-img{
+        width: 100%;
+    }
+    .facilityContainer2{
+        width: 80%;
+        flex-direction: column;
+    }
+    .facilityContainer2-text{
+        width: 70%;
+        text-align: center;
+        margin-top: 100px;
+    }
+    .facilityContainer2-img{
+        width: 100%;
+    }
+    .plansCard-basic-month, .plansCard-basic-annual{
+        margin: 0px 30px;
+        width: 350px;
+    }
+    .trainers-heading h1{
+        width: 70%;
+        padding-top: 50px;
+        font-size: 30px;
+    }
+    .trainers-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .trainers-card{
+        width: 40%;
+    }
+    .trainers-name{
+        margin-top: 40px; 
+    }
+    #contactus{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .contactus-container{
+        width: 90%;
+        flex-direction: column;
+    }
+    .contactus-container-left img{
+        display: none;
+    }
+    .contactus-container-right{
+        width: 60%;
+    }
+    #footer-wrapper{
+        padding: 50px 5%;
+    }
+}
+@media screen and (max-width: 840px){
+    .heroDesc {
+        width: 600px;
+    }
+    main .heroDesc h1 {
+        font-size: 40px;
+    }
+    .heroBtn {
+        justify-content: space-evenly;
+        padding: 0px 50px;
+    }
+    .plansCard-basic{
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .plansCard-basic-month{
+        margin-bottom: 50px;
+    }
+    .membershipPlans-heading h1{
+        font-size: 28px;
+        text-align: center;
+    }
+    .trainers-heading h1 {
+        width: 90%;
+    }
+    .trainers-card{
+        width: 55%;
+    }
+    .contactus-container-right{
+        width: 80%;
+    }
+    .contactus-container-right input{
+        margin: 0px;
+    }
+    .footer-columns{
+        flex-direction: column;
+    }
+    .footer-columns-child{
+        width: 100%;
+        margin: 20px 0px;
+    }
+    .contactus-container-right-firstname P{
+        top: 12px;
+        
+    }
+}
+@media screen and (max-width: 620px){
+    .logo h1{
+        display: none;
+    }
+    .logo h2{
+        display: flex;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .heroDesc {
+        width: 90%;
+    }
+    main .heroDesc h1 {
+        font-size: 35px;
+    }
+    .heroBtn {
+        flex-direction: column;
+        padding: 0px 50px;
+    }
+    .btnSchedule, .btnLearn {
+    margin: 10px 0px;
+    }
+    #aboutUs h1 {
+        font-size: 35px;
+    }
+    #container {
+        display: flex;
+        flex-direction: column;
+    }
+    .facilityContainer1-text h1 {
+        font-size: 35px;
+    }
+    .facilityContainer1{
+        width: 90%;
+    }
+    .facilityContainer1-text{
+        width: 90%;
+    }
+    .facilityContainer2{
+        width: 90%;
+    }
+    .facilityContainer2-text{
+        width: 90%;
+    }
+
+    .facilityContainer1{
+        margin-top: 50px;
+    }
+
+    .membershipPlans-btn{
+        flex-direction: column;
+    }
+    .membershipPlans-btn p{
+        cursor: pointer;
+        margin: 10px 20px;   
+    }
+    .trainers-heading h1 {
+        width: 100%;
+        font-size: 25px;
+    }
+    .trainers-card{
+        width: 90%;
+    }
+    .contactus-container{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .contactus-container-right{
+        width: 90%;
+    }
+    .contactus-container-right h1{
+        width: 100%;
+    }
+    .contactus-container-right-firstname P{
+        top: 13px;
+        left: 18px;
+    }
+    .contactus-container-right input{
+        margin: 0px;
+    }
+    .footer-bottom{
+        flex-direction: column;
+    }
+    .footer-bottom-copyright{
+        margin-bottom: 20px;
+    }
+    .contactus-container-right h4 {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 420px){
+    .heroDesc {
+        margin: 30px auto 0;
+    }
+    main .heroDesc h1 {
+        font-size: 26px;
+    }
+    .heroPara {
+        font-size: 15px;
+    }
+    .btnSchedule a, .btnLearn a {
+    font-size: 13px;
+    }
+    #aboutUs {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    #aboutUs h1 {
+        font-size: 26px;
+    }
+    .facilityContainer1-text h1{
+        font-size: 26px;
+    }
+    .facilityContainer1-text, .facilityContainer2-text {
+        font-size: 15px;
+    }
+    .membershipPlans-btn p{
+        font-size: 13px;
+    }
+    .membershipPlans-heading h1{
+        font-size: 25px;
+    }
+    .trainers-card {
+        width: 90%;
+    }
+    .trainers-text{
+        height: 450px;
+    }
+    .plansCard-basic-month, .plansCard-basic-annual{
+        width: 95%;
+    }
+    .contactus-container-right h1 {
+        font-size: 26px;
+    }
+    .contactus-container-right h4 {
+        font-size: 13px;
+    }
+    .contactus-container-right-firstname P {
+        top: 12px;
+        left: 10px;
+        font-size: 13px;
+    }
+}
