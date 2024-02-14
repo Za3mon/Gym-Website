@@ -130,6 +130,9 @@
 }
 
 @media screen and (max-width: 1150px){
+    nav {
+        padding: 15px 40px;
+    }
     .hideOnmobile{
         display: none;
     }
@@ -263,6 +266,9 @@
     }
 }
 @media screen and (max-width: 840px){
+    nav {
+        padding: 15px 30px;
+    }
     .heroDesc {
         width: 600px;
     }
